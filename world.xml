@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<scene>
+  <image width="720" height="480"/>
+  <sampler value="64"/>
+  <camera eye="-400,400,2000" lookat="200,0,50" up="0,1,0"/>
+  <back_color rgb="0,0,0"/>
+  <ambient position="0,0,500" intensity="0.3,0.3,0.3"/>
+  <light>
+    <P position="-100,350,350" color="0.5,0.5,0.5"/>
+    <A position="1000,350,350" color="0.4,0.4,0.4" radius="100"/>
+  </light>
+  <objects>
+    <surface type="sphere">
+      <material color="0.5,0.48,0.24" ka="0.55" ks="0.3"/>
+      <sphere center="200,0,50" radius="150"/>
+    </surface>
+    <surface type="sphere">
+      <material color="1,0.48,0.24" ka="0.55" ks="0.3"/>
+      <sphere center="-100,0,50" radius="30"/>
+    </surface>
+    <surface type="triangle">
+      <material color="1,1,0" ka="0.55" ks="0.5"/>
+      <triangle v1="-75,100,-90" v2="-150,0,-90" v3="0,0,-90"/>
+    </surface>
+    <surface type="rectangle">
+      <material color="0,0,1" ka="0.55" ks="0.2"/>
+      <rectangle p0="0,0,10" a="0,50,0" b="-25,0,0"/>
+    </surface>
+    <surface type="plane">
+      <material color="0.75,0.75,0.75" ka="0.55" ks="0.0"/>
+      <plane v1="0,100,-110" v2="-75,0,-110" v3="75,0,-110"/>
+    </surface>
+    <surface type="plane">
+      <material color="0.25,0.25,0.25" ka="0.55" ks="0.0"/>
+      <plane v1="0,-260.0,0" v2="50,-250,-50" v3="-50,-250,-50"/>
+    </surface>
+    <surface type="cylinder">
+      <material color="0,0.7,0" ka="0.55" ks="0.2"/>
+      <cylinder bottom="190" top="250" radius="35"/>
+    </surface>
+  </objects>
+</scene>
