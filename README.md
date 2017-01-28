@@ -5,7 +5,7 @@ This was my first attempt on producing imagery using code. Its nothing useful at
 ### Here is an ugly example:
 ![example](example.bmp)
 
-Feel free to edit XML file to change world properties. All `surface`s possible are listed in sample `world.xml`. In `<light>` part `P` stand for **point light** and `A` stands for *area light*.
+Feel free to edit XML file to change world properties. All `surface`s possible are listed in sample `world.xml`. In `<light>` part `P` stand for *point light* and `A` stands for *area light*.
 
 # Limitations
 
@@ -17,7 +17,7 @@ Feel free to edit XML file to change world properties. All `surface`s possible a
 - No optimizations whatsoever
 
 # Install
-Execute `./run.sh [**filename.bmp**]`
+Execute `./run.sh [filename.bmp]`
 
 # Output
 The output image will appear on `build` folder.
